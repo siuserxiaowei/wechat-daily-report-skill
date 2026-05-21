@@ -1,5 +1,18 @@
 # WeChat Daily Report Skill
 
+<!-- SIUSER-SEO-INTRO:START -->
+
+## 项目介绍 / Project Introduction
+
+**中文介绍**：微信群日报 Skill，用本地只读微信数据生成日报、长图和复盘素材，适合社群运营和信息整理。
+
+**English**: A WeChat daily report skill that uses local read-only WeChat data to generate reports, long images, and review materials for community operations.
+
+**SEO 关键词 / SEO Keywords**: WeChat daily report, community operations, AI summary, local data, 微信群日报
+
+<!-- SIUSER-SEO-INTRO:END -->
+
+
 把微信群聊天记录整理成一份可阅读、可截图、可归档的「群日报」。
 
 这版重点重做了 UI，也把数据入口调整为优先使用 `jackwener/wx-cli`：`wx-cli` 负责从本机微信获取聊天记录，本仓库负责把记录整理成日报 HTML/PNG。
@@ -238,3 +251,17 @@ SKILL.md                         # 给 Codex/Claude 使用的 Skill 说明
 ## License
 
 MIT
+
+<!-- SIUSER-CONTACT:START -->
+
+## 联系我 / Contact
+
+想交流 AI 工具、内容自动化、SEO、私域增长或项目合作，可以扫码加我微信。
+
+For collaboration on AI tools, content automation, SEO, private-domain growth, or product experiments, scan the WeChat QR code below.
+
+<img src="https://raw.githubusercontent.com/siuserxiaowei/siuserxiaowei/main/assets/contact/wechat-qrcode.jpg" width="180" alt="WeChat QR code / 微信二维码" />
+
+**关键词 / Keywords**: WeChat daily report, community operations, AI summary, local data, AI tools, AI automation, GitHub Pages, SEO
+
+<!-- SIUSER-CONTACT:END -->
