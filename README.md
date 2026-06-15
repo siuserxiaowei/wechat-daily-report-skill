@@ -1,5 +1,75 @@
 # WeChat Daily Report Skill
 
+<!-- SIUSER-REPO-GUIDE:START -->
+## Repository Guide
+
+### What This Repository Does
+
+微信群日报 Skill：把微信群聊整理成社区运营日报和 AI 摘要报告。
+
+English summary: WeChat group daily-report skill for turning chats into community operation reports and AI summaries.
+
+### Online Entry Points
+
+- GitHub repository: https://github.com/siuserxiaowei/wechat-daily-report-skill
+- Live / GitHub Pages: https://siuserxiaowei.github.io/wechat-daily-report-skill/
+- Default branch: `main`
+- Primary language: `HTML`
+- Topics: `daily-report`, `jinja2`, `obsidian`, `playwright`, `wechat`, `chat-report`
+
+### How To Read / Learn This Repository
+
+1. 先读本 README，确认项目目标、在线入口和本地运行方式。
+2. 打开上方 Live / GitHub Pages 链接，先从最终效果理解项目。
+3. 优先查看 `SKILL.md`、`README.md` 和示例脚本，理解这个 skill 解决什么问题。
+4. 如果要修改内容，先小范围改动，再运行本 README 中的验证命令。
+
+### Clone This Repository
+
+```bash
+git clone https://github.com/siuserxiaowei/wechat-daily-report-skill.git
+cd wechat-daily-report-skill
+```
+
+### Run Or View Locally
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Repository Map
+
+| Path | Purpose |
+| --- | --- |
+| `README.md` | 项目入口说明，先读这里。 |
+| `SKILL.md` | Skill 的核心说明、触发条件和使用步骤。 |
+| `index.html` | 静态站首页或页面入口。 |
+| `docs/` | 文档或 GitHub Pages 输出目录。 |
+| `assets/` | 图片、样式、字体或页面资源。 |
+| `scripts/` | 构建、同步、生成或维护脚本。 |
+| `LICENSE` | 项目文件。 |
+| `agents/` | 项目目录。 |
+| `examples/` | 项目目录。 |
+| `references/` | 项目目录。 |
+| `reports/` | 项目目录。 |
+| `requirements.txt` | 项目文件。 |
+
+### Maintenance Notes
+
+- Keep this README in sync when the project purpose, live link, or run commands change.
+- Prefer small, focused commits when changing code, data, or generated pages.
+- Run the relevant build or validation command before publishing changes.
+- If this is a generated/static archive, update the source data first, then regenerate the public files.
+
+### Privacy And Safety
+
+- Do not commit API keys, tokens, passwords, cookies, private URLs, or internal account data.
+- Keep private source material out of public GitHub Pages output unless it has been explicitly cleared for publication.
+- When in doubt, run a quick secret scan such as `rg -n "token|secret|password|access_key|authorization"` before pushing.
+<!-- SIUSER-REPO-GUIDE:END -->
+
 <!-- SIUSER-SEO-INTRO:START -->
 
 ## 项目介绍 / Project Introduction
@@ -11,7 +81,6 @@
 **SEO 关键词 / SEO Keywords**: WeChat daily report, community operations, AI summary, local data, 微信群日报
 
 <!-- SIUSER-SEO-INTRO:END -->
-
 
 把微信群聊天记录整理成一份可阅读、可截图、可归档的「群日报」。
 
